@@ -33,5 +33,5 @@ catch (e) {
 
 // console.log(validaArray()); // Chama RefenceError
 // console.log(validaArray([], 'a')); // Chama TypeError
-console.log(validaArray([1], 1));
+console.log(validaArray([3], 1)); 
 //console.log(validaArray());
