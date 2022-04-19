@@ -1,7 +1,7 @@
 class ContaBancaria {
     constructor(agencia, numero, tipo){
-        this.agencia = agencia;
-        this.numero = numero;
+        this.agencia = agencia;    //THIS serve para referenciar a classe em que ele está dentro.
+        this.numero = numero;            
         this.tipo = tipo;
         this._saldo = 0;
     }
@@ -32,7 +32,7 @@ class ContaBancaria {
     }
 }
 
-class ContaCorrente extends ContaBancaria{
+class ContaCorrente extends ContaBancaria{  // EXTENDS é usado para determinar de qual classe PAI vamos puxar.
     constructor(agencia, numero, cartaoCredito){
         super(agencia, numero);
         this.tipo = 'corrente';
