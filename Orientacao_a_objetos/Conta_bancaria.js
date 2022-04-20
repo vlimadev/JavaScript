@@ -71,7 +71,4 @@ class ContaUniversitaria extends ContaBancaria{
 
         this._saldo = this._saldo - valor;
     }
-
-
-
 }
