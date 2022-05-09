@@ -1,5 +1,5 @@
 //arr = argumnetos a serem passados .
-// 1 - função MapSemThis recebe um argumento.
+// 1 - função MapSemThis recebe um array.
 // 2 - retorna o argumento e recebe um map que é armazenado na função que contém (item).
 // 3 - retorna o (item) e o multiplica por 2.
 // 4- a const (nums) recebe valores a serem usados na multiplicação.
