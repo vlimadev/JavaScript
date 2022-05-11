@@ -1,7 +1,7 @@
 const lista = [
     {
         nome : 'suco de uva',
-        preco :10
+        preco : '10'
     },
     {
         nome : 'cereal',           //const Lista passa uma lista de produtos e seus preços
