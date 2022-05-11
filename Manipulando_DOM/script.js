@@ -1,9 +1,12 @@
-function alteraModo(){
-    alterarClasses();
-    mudarTetxo();
 
+// Função chamada ao clicar no button
+function alteraModo(){
+    alterarClasses();      
+    mudarTetxo();
 }
 
+
+// Função responsavel por alterar as classes EX: button, h1, body
 function alterarClasses(){
 button.classList.toggle(darkModeClass);
 h1.classList.toggle(darkModeClass);
@@ -16,9 +19,9 @@ function mudarTetxo(){
     const darkMode = "Dark Mode"
 
 
-    if(body.classList.contains(darkModeClass)){
-        button.innerHTML = lightMode;
-        h1.innerHTML = darkMode + " ON";
+    if(body.classList.contains(darkModeClass)){ // se o body contem darkModeClass na classe então
+        button.innerHTML = lightMode; // Muda o texto do button
+        h1.innerHTML = darkMode + " ON"; //muda titulo 
         return
     }{
         button.innerHTML = darkMode;
